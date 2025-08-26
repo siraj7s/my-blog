@@ -3,7 +3,7 @@ import sitemap from '@astrojs/sitemap';
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-	site: 'https://siraj7s.github.io',
+	site: 'www.sirajpanigrahi.in',
 	trailingSlash: 'always',
 	integrations: [mdx(), sitemap()],
 });
