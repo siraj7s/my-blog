@@ -1,14 +1,15 @@
 ---
-title: 'First post'
-description: 'Lorem ipsum dolor sit amet'
-pubDate: 'Jul 08 2022'
-heroImage: '../../assets/blog-placeholder-3.jpg'
+title: 'MY JOURNEY'
+description: 'my journey of early disovery'
+pubDate: 'Aug 2025'
+heroImage: '../../assets/my-journey.jpeg'
 ---
 
-# From Phone Camera to Frappe Code:  
-## My Journey of Early Discovery
 
-### I Found My Ikigai (Early in my life)
+## From Phone Camera to Frappe Code:  My Journey of Early Discovery
+#
+
+#### I Found My Ikigai (Early in my life)
 
 I'm **Siraj Panigrahi** - a developer, a B.Tech student, and someone who stumbled into passion a little earlier than most.  
 
@@ -24,7 +25,7 @@ But here’s where it gets interesting: clicking pictures led to editing them an
 
 When the lockdown was finally removed, my family went on a trip. I casually filmed special moments, smiles, laughter, small interactions and later turned all of it into a short film. I showed it to my family, and they were blown away. Their reactions gave me a kind of validation I’d never felt before.
 
-From that point on, it became a hobby. I started uploading my short films to YouTube. That platform became my creative playground. And those videos used to go viral in my city, and 3k-4k views was normal for me. But I got 2 copyright strikes on my channelshit.
+From that point on, it became a hobby. I started uploading my short films to YouTube. That platform became my creative playground. And those videos used to go viral in my city, and 3k-4k views was normal for me. But I got 2 copyright strikes on my channel shit.
 
 Then came lockdown phase two, and I slipped back into my video + gaming routine. I had moved on to class 10 and started dreaming bigger - I wanted to upgrade to **Adobe Premiere Pro** for more professional editing. But for that, I needed a laptop. A proper one. Preferably one that could also run a few games 👀  
 **“Life me maza nhi rukne ka”**  
@@ -40,7 +41,7 @@ That comment cut deep. But I let my actions speak. I studied, I edited, I upload
 
 ### My First Income as a Freelance Video Editor
 
-As things opened up post-COVID, my family hosted a thread ceremony. And of course we needed photographers so we hired a team. At the ceremony while everyone else was busy with rituals, I found myself sitting beside him—curious and chatty.
+As things opened up post-COVID, my family hosted a [thread ceremony](https://en.wikipedia.org/wiki/Upanayana). And of course we needed photographers so we hired a team. At the ceremony while everyone else was busy with rituals, I found myself sitting beside him—curious and chatty.
 
 I asked about his career, tips on shooting better videos, and casually, I showed him some of my edits. He was genuinely impressed.  
 
@@ -52,7 +53,7 @@ I laughed and replied I was still in school. I told him I didn’t know where to
 
 And just like that, my freelancing journey began.  
 
-I was now in 11th grade, juggling PCM with video editing gigs. While others around me were just scrolling through Instagram or Netflix-watching shows, I was studying maths and making real money from my skills. I remember doing the math one day: I had earned close to ₹1.2 lakh in a year - almost 150x what I used to get as pocket money. Repaid my laptop price to my father!  
+I was now in 11th grade, juggling PCM with video editing gigs. While others around me were just scrolling through Instagram or Netflix-watching shows, I was studying maths and making real money from my skills. I remember doing the math one day: I had earned close to **₹1.2 lakh** in a year - almost **150x** what I used to get as pocket money. Repaid my laptop price to my father!  
 
 That phase taught me **discipline, client communication, and a lot about trust**.  
 
@@ -84,12 +85,13 @@ And that one small conversation changed everything.
 
 ---
 
-### Enter Hussain Nagaria - the person we all lovingly call Hussain Bhaiya
+### Enter [Hussain Nagaria](https://www.linkedin.com/in/buildwithhussain/) - the person we all lovingly call Hussain Bhaiya
+![Group Photo](../../assets/group_photo.jpeg)
 
-The Spark  
+**The Spark**  
 We started learning Python from him - me, Asad, and a few more close friends. His way of teaching was calm, clear, and super friendly… We didn’t feel like students attending a boring tuition class. It felt like a bunch of curious kids learning something exciting every weekend.  
 
-We used to visit his house on Saturdays and Sundays, learning Python while enjoying the vibe. On weekdays I’d switch back into JEE mode > solving problems, chasing rank, balancing it all.  
+We used to visit his house on Saturdays and Sundays, learning Python while enjoying the vibe. On weekdays I’d switch back into **JEE mode > solving problems**, chasing rank, balancing it all.  
 
 And somewhere in between those weekends, I felt something change. I wasn’t just learning Python...  
 I was falling in love with code.  
@@ -106,7 +108,7 @@ I walked into that classroom and taught Python basics, logic building, fun examp
 
 At the end of the day, I won **Gold for "Best Student Teacher"**.  
 
-That was the moment I realized :) I don’t just enjoy coding... I enjoy teaching it too.  
+That was the moment I realized :) **I don’t just enjoy coding... I enjoy teaching it too.**  
 
 ---
 
@@ -130,13 +132,16 @@ He didn’t say anything for a second. Then he said,
 
 > “Come over to my place. We’ll talk.”  
 
+![whats_the_plan](../../assets/whats_the_plan.jpeg)
+
+
 ---
 
 ### That One Night Changed Everything
 
 When I reached his house that evening, I was carrying zero expectations. Just disappointment.  
 
-We talked for hours. He opened up about his own journey and how he had taken a drop, cleared JEE Advanced later, but still didn’t go to an NIT/IIT due to personal choices. And yet, despite everything, he landed his first job while still in his second year of online bachelors.  
+We talked for hours. He opened up about [his own journey](https://buildwithhussain.com/blog/introducing-bwh-studios) and how he had taken a drop, cleared JEE Advanced later, but still didn’t go to an NIT/IIT due to personal choices. And yet, despite everything, he landed his first job while still in his second year of online bachelors.  
 
 He looked at me and said,  
 
@@ -144,7 +149,7 @@ He looked at me and said,
 
 That night, we mapped out my career roadmap: coding, freelancing, real-world learning. A different path. A bold one. But one that felt right.  
 
-And for the first time in a long while, I slept peacefully.  
+And for the first time in a long while, **I slept peacefully.**  
 
 ---
 
@@ -156,7 +161,10 @@ I took admission at **Chhattisgarh Institute of Technology (CGIT)** in my hometo
 
 It felt like I'd already lost before the race even began.  
 
-One day, Hussain Bhaiya gave me the book **_The Power of Positive Attitude_**, and it completely changed the way I thought about everything. That’s when I discovered the power of reading self-help books. I started reading more books focused on positive thinking, life lessons, and finance.  
+One day, Hussain Bhaiya gave me the book **_The Power of Positive Attitude_**, and it completely changed the way I thought about everything. That’s when I discovered the power of reading self-help books. I started reading more books focused on positive thinking, life lessons, and finance. Some books are
+
+![books](../../assets/books.jpeg)
+
 
 At that time, I had no friends left in my hometown - everyone had moved out for their studies so I was the only one left in my group. (I had friends at that time but no jigrii yaar)  
 
@@ -164,19 +172,22 @@ So I made a deal with myself: No matter how behind I felt. No matter how tough i
 
 Week after week, I kept learning. Slowly, piece by piece, I built confidence.  
 
-That’s when I discovered **Django**. I fell in love with the framework’s clarity and power. Within just 8 months, I built my first real-world project - an e-commerce platform where users could register, buy/sell products, and manage inventory.  
+That’s when I discovered **Django**. I fell in love with the framework’s clarity and power. Within just **8 months**, I built my first real-world project - **an e-commerce platform where users could register, buy/sell products, and manage inventory.**  
 
 I showed the project to Bhaiya. He nodded and said,  
 
 > “Now you're ready.”  
 
-During that learning journey, something else happened that I didn’t expect - I started helping others on **LinkedIn**. I shared daily learnings, Python tricks, project updates - anything I was exploring. Newcomers started reaching out. I had unknowingly built a small community. A following, even. And that felt even more special for me!  
+During that learning journey, something else happened that I didn’t expect - I started helping others on [**LinkedIn**](https://www.linkedin.com/in/sirajpanigrahi/). I shared daily learnings, Python tricks, project updates - anything I was exploring. Newcomers started reaching out. I had unknowingly built a small community. A following, even. And that felt even more special for me!  
 
 ---
 
 ### Now It Was Time to Face the Real World…
 
-After months of learning and building, Hussain Bhaiya introduced me to something new - the **Frappe Framework**.  
+![internship](../../assets/internship.jpeg)
+
+
+After months of learning and building, Hussain Bhaiya introduced me to something new - the [**Frappe Framework**](https://frappe.io/framework).  
 
 As he was working at Frappe, he told me,  
 
@@ -192,19 +203,19 @@ I still remember thinking every time Hussain Bhaiya praised the "beauty" of Frap
 
 But I kept learning. I kept building.  
 
-Then came a turning point - I created an **Airport Management App using Frappe** and shared it on LinkedIn.  
+Then came a turning point - I created an [**Airport Management App using Frappe**](https://www.linkedin.com/posts/sirajpanigrahi_buildwithhussain-frappeframework-airportmanagement-activity-7307316217466294273-a-eR?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEeTPCEBrq4buyOXi2uCkyTmyigyc9OiPPI) and shared it on LinkedIn.  
 
 That night, I went to sleep, not expecting anything at all.  
 
 The next morning, something unbelievable happened. Very few people get this type of opportunity.  
-
-> *(Pursue excellence and success will come chasing you)*  
+![Meme](../../assets/meme.jpeg)
+*(Pursue excellence and success will come chasing you)*  
 
 I woke up to a message that read:  
 
 > “Are you looking for a job?”  
 
-It was from **Chinmay Kulkarni, the CEO of Hybrowlabs Technologies**.  
+It was from [**Chinmay Kulkarni**](https://www.linkedin.com/in/cykulkarni/), **the CEO of [**Hybrowlabs Technologies**](https://hybrowlabs.com/).  
 
 I replied, “Yes!” He asked for my contact information. We got on a call. I shared my journey, showed him the projects I’d built so far, and told him about how I started with zero experience.  
 
@@ -218,7 +229,7 @@ Today, it’s been **5 months** since I joined **Hybrowlabs Technologies, Pune**
 
 I want to take this moment to say thank you, **Chinmay**, for believing in a beginner. For giving me a space to grow.  
 
-And above all, a huge thank you to **Hussain Bhaiya, Founder of BWH Studios**, for every blocker I faced, every time I doubted myself, and every time I was about to quit but he was there. Guiding me. Pushing me. Believing in me.  
+And above all, a huge thank you to **Hussain Bhaiya, Founder of** [**BWH Studios**](https://buildwithhussain.com/), for every blocker I faced, every time I doubted myself, and every time I was about to quit but he was there. Guiding me. Pushing me. Believing in me.  
 
 This is where all the hard work started to pay off. But this is **not the end**. It’s just the beginning…  
 
