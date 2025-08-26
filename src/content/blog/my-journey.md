@@ -5,10 +5,16 @@ pubDate: 'Aug 2025'
 heroImage: '../../assets/my-journey.jpeg'
 ---
 
+<<<<<<< HEAD
 
 ## From Phone Camera to Frappe Code:  My Journey of Early Discovery
 #
 
+=======
+## From Phone Camera to Frappe Code:  My Journey of Early Discovery
+#
+
+>>>>>>> HEAD@{1}
 #### I Found My Ikigai (Early in my life)
 
 I'm **Siraj Panigrahi** - a developer, a B.Tech student, and someone who stumbled into passion a little earlier than most.  
