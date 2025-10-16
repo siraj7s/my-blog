@@ -1,13 +1,11 @@
 ---
 title: 'MY JOURNEY'
 description: 'my journey of early disovery'
-pubDate: 'Aug 2025'
+pubDate: 'Sept 1 2025'
 heroImage: '../../assets/my-journey.jpeg'
 ---
 
 ## From Phone Camera to Frappe Code:  My Journey of Early Discovery
-#
-
 #### I Found My Ikigai (Early in my life)
 
 I'm **Siraj Panigrahi** - a developer, a B.Tech student, and someone who stumbled into passion a little earlier than most.  
