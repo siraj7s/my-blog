@@ -214,6 +214,8 @@ I woke up to a message that read:
 
 It was from [**Chinmay Kulkarni**](https://www.linkedin.com/in/cykulkarni/), **the CEO of [**Hybrowlabs Technologies**](https://hybrowlabs.com/).  
 
+![chinmay_offer](../../assets/chinmay-offer.jpeg)
+
 I replied, “Yes!” He asked for my contact information. We got on a call. I shared my journey, showed him the projects I’d built so far, and told him about how I started with zero experience.  
 
 He listened carefully, then said something I’ll never forget:  
