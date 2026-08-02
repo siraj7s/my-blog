@@ -1,8 +1,9 @@
 ---
 title: 'MY JOURNEY'
-description: 'my journey of early disovery'
+description: 'From phone-camera video editing to Frappe development — how I found my way into code.'
 pubDate: 'Sept 1 2025'
 heroImage: '../../assets/my-journey.jpeg'
+tags: ['Frappe', 'career', 'open source']
 ---
 
 ## From Phone Camera to Frappe Code:  My Journey of Early Discovery
