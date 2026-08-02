@@ -1,8 +1,0 @@
-
-import __ASTRO_IMAGE_IMPORT_Z3P3WV from "../../assets/group_photo.jpeg?astroContentImageFlag=&importer=src%2Fcontent%2Fblog%2Fmy-journey.md";
-import __ASTRO_IMAGE_IMPORT_Z19P9N8 from "../../assets/whats_the_plan.jpeg?astroContentImageFlag=&importer=src%2Fcontent%2Fblog%2Fmy-journey.md";
-import __ASTRO_IMAGE_IMPORT_ZTOqbm from "../../assets/books.jpeg?astroContentImageFlag=&importer=src%2Fcontent%2Fblog%2Fmy-journey.md";
-import __ASTRO_IMAGE_IMPORT_1xDKqb from "../../assets/internship.jpeg?astroContentImageFlag=&importer=src%2Fcontent%2Fblog%2Fmy-journey.md";
-import __ASTRO_IMAGE_IMPORT_Z1WJpB from "../../assets/meme.jpeg?astroContentImageFlag=&importer=src%2Fcontent%2Fblog%2Fmy-journey.md";
-import __ASTRO_IMAGE_IMPORT_1P1xcP from "../../assets/my-journey.jpeg?astroContentImageFlag=&importer=src%2Fcontent%2Fblog%2Fmy-journey.md";
-export default new Map([["../../assets/group_photo.jpeg?astroContentImageFlag=&importer=src%2Fcontent%2Fblog%2Fmy-journey.md", __ASTRO_IMAGE_IMPORT_Z3P3WV], ["../../assets/whats_the_plan.jpeg?astroContentImageFlag=&importer=src%2Fcontent%2Fblog%2Fmy-journey.md", __ASTRO_IMAGE_IMPORT_Z19P9N8], ["../../assets/books.jpeg?astroContentImageFlag=&importer=src%2Fcontent%2Fblog%2Fmy-journey.md", __ASTRO_IMAGE_IMPORT_ZTOqbm], ["../../assets/internship.jpeg?astroContentImageFlag=&importer=src%2Fcontent%2Fblog%2Fmy-journey.md", __ASTRO_IMAGE_IMPORT_1xDKqb], ["../../assets/meme.jpeg?astroContentImageFlag=&importer=src%2Fcontent%2Fblog%2Fmy-journey.md", __ASTRO_IMAGE_IMPORT_Z1WJpB], ["../../assets/my-journey.jpeg?astroContentImageFlag=&importer=src%2Fcontent%2Fblog%2Fmy-journey.md", __ASTRO_IMAGE_IMPORT_1P1xcP]]);
