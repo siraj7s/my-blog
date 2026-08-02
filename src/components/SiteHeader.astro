@@ -1,0 +1,36 @@
+---
+interface Props {
+	homeHref?: string;
+}
+const { homeHref = "" } = Astro.props;
+---
+
+<header class="site-header">
+	<a href={homeHref || "#top"} class="logo">siraj<span class="accent">.</span>dev</a>
+	<nav>
+		<a href={`${homeHref}#blog`}>blog</a>
+		<a href={`${homeHref}#connect`}>connect</a>
+		<button type="button" id="theme-toggle" title="Toggle theme">dark</button>
+	</nav>
+</header>
+
+<script>
+	const themeToggle = document.getElementById("theme-toggle");
+	function syncThemeLabel() {
+		if (!themeToggle) return;
+		themeToggle.textContent =
+			document.documentElement.dataset.theme === "dark" ? "light" : "dark";
+	}
+	syncThemeLabel();
+	themeToggle?.addEventListener("click", () => {
+		const isDark = document.documentElement.dataset.theme === "dark";
+		if (isDark) {
+			delete document.documentElement.dataset.theme;
+			localStorage.setItem("theme", "light");
+		} else {
+			document.documentElement.dataset.theme = "dark";
+			localStorage.setItem("theme", "dark");
+		}
+		syncThemeLabel();
+	});
+</script>

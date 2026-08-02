@@ -1,0 +1,126 @@
+:root {
+	--bg: #fbfaf7;
+	--card: #ffffff;
+	--fg: #16181c;
+	--fg-soft: #3e4348;
+	--fg-mute: #5c6166;
+	--muted: #6e7378;
+	--faint: #8a8f94;
+	--border: #e7e3da;
+	--border-soft: #ede9e0;
+	--input-border: #ddd8ce;
+	--hover-bg: #f3f1eb;
+	--accent: #1d4ed8;
+	--accent-dark: #1e40af;
+}
+:root[data-theme="dark"] {
+	--bg: #0e1012;
+	--card: #15181b;
+	--fg: #ecEAe6;
+	--fg-soft: #b9bec4;
+	--fg-mute: #a6acb2;
+	--muted: #949aa0;
+	--faint: #868c92;
+	--border: #262a2e;
+	--border-soft: #22262a;
+	--input-border: #2b3035;
+	--hover-bg: #1a1e22;
+	--accent: #60a5fa;
+	--accent-dark: #93c5fd;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+body {
+	margin: 0;
+	background: var(--bg);
+	color: var(--fg);
+	font-family: "Space Grotesk", system-ui, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	transition: background 160ms ease, color 160ms ease;
+}
+a {
+	color: var(--accent);
+	text-decoration: none;
+}
+a:hover {
+	color: var(--accent-dark);
+}
+.mono {
+	font-family: "JetBrains Mono", monospace;
+}
+.muted {
+	color: var(--muted);
+}
+
+.site-header {
+	position: sticky;
+	top: 0;
+	z-index: 50;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	gap: 10px 16px;
+	padding: 14px clamp(16px, 6vw, 48px);
+	background: color-mix(in srgb, var(--bg) 88%, transparent);
+	backdrop-filter: blur(10px);
+	border-bottom: 1px solid var(--border);
+}
+.logo {
+	font-family: "JetBrains Mono", monospace;
+	font-size: 14px;
+	font-weight: 700;
+	color: var(--fg);
+}
+.logo:hover {
+	color: var(--fg);
+}
+.logo .accent {
+	color: var(--accent);
+}
+.site-header nav {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: clamp(10px, 3vw, 28px);
+	font-family: "JetBrains Mono", monospace;
+	font-size: 13px;
+}
+.site-header nav a {
+	color: var(--muted);
+}
+.site-header nav a:hover {
+	color: var(--fg);
+}
+#theme-toggle {
+	padding: 6px 12px;
+	border: 1px solid var(--input-border);
+	border-radius: 999px;
+	background: var(--card);
+	color: var(--muted);
+	font-family: "JetBrains Mono", monospace;
+	font-size: 12.5px;
+	cursor: pointer;
+	transition: border-color 160ms ease, color 160ms ease;
+}
+#theme-toggle:hover {
+	border-color: var(--fg);
+	color: var(--fg);
+}
+
+.site-footer {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	gap: 6px 12px;
+	max-width: 760px;
+	margin: 0 auto;
+	padding: 20px clamp(20px, 6vw, 48px) 40px;
+	border-top: 1px solid var(--border);
+	font-size: 12px;
+	color: var(--faint);
+}

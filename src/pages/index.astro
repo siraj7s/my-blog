@@ -2,6 +2,9 @@
 import { Image } from "astro:assets";
 import { getCollection } from "astro:content";
 import BaseHead from "../components/BaseHead.astro";
+import SiteFooter from "../components/SiteFooter.astro";
+import SiteHeader from "../components/SiteHeader.astro";
+import ThemeAssets from "../components/ThemeAssets.astro";
 import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
 import profilePhoto from "../assets/my_pro.png";
 
@@ -30,50 +33,28 @@ const extraTags = ["poetry", "my views"];
 const tagSet = new Set<string>(extraTags);
 posts.forEach((p) => p.tags.forEach((t) => tagSet.add(t)));
 const filters = ["all", ...Array.from(tagSet)];
-
-const year = new Date().getFullYear();
 ---
 
 <!doctype html>
 <html lang="en">
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link
-			rel="preconnect"
-			href="https://fonts.gstatic.com"
-			crossorigin="anonymous"
-		/>
-		<link
-			href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@400;500;700&display=swap"
-			rel="stylesheet"
-		/>
-		<script is:inline>
-			(function () {
-				const saved = localStorage.getItem("theme");
-				const dark =
-					saved === "dark" ||
-					(!saved &&
-						window.matchMedia("(prefers-color-scheme: dark)").matches);
-				if (dark) document.documentElement.dataset.theme = "dark";
-			})();
-		</script>
+		<ThemeAssets />
 	</head>
 	<body>
-		<header class="site-header">
-			<a href="#top" class="logo">siraj<span class="accent">.</span>dev</a>
-			<nav>
-				<a href="#blog">blog</a>
-				<a href="#connect">connect</a>
-				<button type="button" id="theme-toggle" title="Toggle theme"
-					>dark</button
-				>
-			</nav>
-		</header>
+		<SiteHeader />
 
 		<main>
 			<section id="top" class="hero">
-				<Image src={profilePhoto} alt="Siraj Panigrahi" width={150} height={150} class="avatar" />
+				<Image
+					src={profilePhoto}
+					alt="Siraj Panigrahi"
+					width={150}
+					height={150}
+					densities={[1, 2, 3]}
+					quality={90}
+					class="avatar"
+				/>
 
 				<h1>
 					<span class="muted">Hi, I'm</span> <span id="typed-name"></span><span
@@ -108,7 +89,7 @@ const year = new Date().getFullYear();
 						target="_blank"
 						rel="noreferrer">LinkedIn ↗</a
 					>
-					<a href="mailto:siraj.panigrahi@atriina.com">Email ↗</a>
+					<a href="mailto:sirajpanigrahi@gmail.com">Email ↗</a>
 				</div>
 			</section>
 
@@ -198,129 +179,20 @@ const year = new Date().getFullYear();
 			<p class="signoff">"Don't forget to be awesome 😉"</p>
 		</main>
 
-		<footer class="site-footer mono muted">
-			<span>Siraj Panigrahi • Jagdalpur, Chhattisgarh • {year}</span>
-		</footer>
+		<SiteFooter />
 
 		<style>
-			:root {
-				--bg: #fbfaf7;
-				--card: #ffffff;
-				--fg: #16181c;
-				--fg-soft: #3e4348;
-				--fg-mute: #5c6166;
-				--muted: #6e7378;
-				--faint: #8a8f94;
-				--border: #e7e3da;
-				--border-soft: #ede9e0;
-				--input-border: #ddd8ce;
-				--hover-bg: #f3f1eb;
-				--accent: #c2410c;
-				--accent-dark: #9a3412;
-			}
-			:root[data-theme="dark"] {
-				--bg: #0e1012;
-				--card: #15181b;
-				--fg: #ecEAe6;
-				--fg-soft: #b9bec4;
-				--fg-mute: #a6acb2;
-				--muted: #949aa0;
-				--faint: #868c92;
-				--border: #262a2e;
-				--border-soft: #22262a;
-				--input-border: #2b3035;
-				--hover-bg: #1a1e22;
-				--accent: #fb923c;
-				--accent-dark: #f0b08e;
-			}
-
-			html {
-				scroll-behavior: smooth;
-			}
-			body {
-				margin: 0;
-				background: var(--bg);
-				color: var(--fg);
-				font-family: "Space Grotesk", system-ui, sans-serif;
-				-webkit-font-smoothing: antialiased;
-				transition: background 160ms ease, color 160ms ease;
-			}
-			a {
-				color: var(--accent);
-				text-decoration: none;
-			}
-			a:hover {
-				color: var(--accent-dark);
-			}
-			.mono {
-				font-family: "JetBrains Mono", monospace;
-			}
-			.muted {
-				color: var(--muted);
-			}
 			@keyframes blink {
 				0%, 49% { opacity: 1; }
 				50%, 100% { opacity: 0; }
 			}
 
-			.site-header {
-				position: sticky;
-				top: 0;
-				z-index: 50;
-				display: flex;
-				align-items: center;
-				justify-content: space-between;
-				gap: 16px;
-				padding: 16px clamp(20px, 6vw, 48px);
-				background: color-mix(in srgb, var(--bg) 88%, transparent);
-				backdrop-filter: blur(10px);
-				border-bottom: 1px solid var(--border);
-			}
-			.logo {
-				font-family: "JetBrains Mono", monospace;
-				font-size: 14px;
-				font-weight: 700;
-				color: var(--fg);
-			}
-			.logo:hover {
-				color: var(--fg);
-			}
-			.logo .accent {
-				color: var(--accent);
-			}
-			.site-header nav {
-				display: flex;
-				align-items: center;
-				gap: clamp(16px, 3vw, 28px);
-				font-family: "JetBrains Mono", monospace;
-				font-size: 13px;
-			}
-			.site-header nav a {
-				color: var(--muted);
-			}
-			.site-header nav a:hover {
-				color: var(--fg);
-			}
-			#theme-toggle {
-				padding: 6px 12px;
-				border: 1px solid var(--input-border);
-				border-radius: 999px;
-				background: var(--card);
-				color: var(--muted);
-				font-family: "JetBrains Mono", monospace;
-				font-size: 12.5px;
-				cursor: pointer;
-				transition: border-color 160ms ease, color 160ms ease;
-			}
-			#theme-toggle:hover {
-				border-color: var(--fg);
-				color: var(--fg);
-			}
-
 			main {
+				width: 100%;
 				max-width: 760px;
 				margin: 0 auto;
 				padding: 0 clamp(20px, 6vw, 48px);
+				box-sizing: border-box;
 			}
 
 			.hero {
@@ -602,19 +474,33 @@ const year = new Date().getFullYear();
 				color: var(--faint);
 			}
 
-			.site-footer {
-				display: flex;
-				flex-wrap: wrap;
-				align-items: center;
-				justify-content: center;
-				text-align: center;
-				gap: 6px 12px;
-				max-width: 760px;
-				margin: 0 auto;
-				padding: 20px clamp(20px, 6vw, 48px) 40px;
-				border-top: 1px solid var(--border);
-				font-size: 12px;
-				color: var(--faint);
+			@media (max-width: 600px) {
+				main {
+					padding: 0 16px;
+				}
+				.avatar {
+					width: 110px;
+					height: 110px;
+				}
+				.links {
+					flex-direction: column;
+				}
+				.links a {
+					text-align: center;
+				}
+				.post {
+					grid-template-columns: 1fr;
+					margin: 0 -12px;
+					padding: 18px 12px;
+				}
+				.cover {
+					width: 100%;
+					height: 160px;
+				}
+				#contact-submit {
+					justify-self: stretch;
+					text-align: center;
+				}
 			}
 		</style>
 
@@ -629,25 +515,6 @@ const year = new Date().getFullYear();
 					if (i >= fullName.length) clearInterval(timer);
 				}, 75);
 			}
-
-			const themeToggle = document.getElementById("theme-toggle");
-			function syncThemeLabel() {
-				if (!themeToggle) return;
-				themeToggle.textContent =
-					document.documentElement.dataset.theme === "dark" ? "light" : "dark";
-			}
-			syncThemeLabel();
-			themeToggle?.addEventListener("click", () => {
-				const isDark = document.documentElement.dataset.theme === "dark";
-				if (isDark) {
-					delete document.documentElement.dataset.theme;
-					localStorage.setItem("theme", "light");
-				} else {
-					document.documentElement.dataset.theme = "dark";
-					localStorage.setItem("theme", "dark");
-				}
-				syncThemeLabel();
-			});
 
 			const filterBtns = document.querySelectorAll(".filter-btn");
 			const postEls = document.querySelectorAll(".post");
@@ -677,7 +544,7 @@ const year = new Date().getFullYear();
 				const message = document.getElementById("contact-message").value;
 				const subject = encodeURIComponent(`Portfolio contact from ${email}`);
 				const body = encodeURIComponent(message);
-				window.location.href = `mailto:siraj.panigrahi@atriina.com?subject=${subject}&body=${body}`;
+				window.location.href = `mailto:sirajpanigrahi@gmail.com?subject=${subject}&body=${body}`;
 				if (submitBtn) submitBtn.textContent = "Sent ✓";
 				if (sentNote) sentNote.hidden = false;
 			});
